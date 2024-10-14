@@ -1,1 +1,1 @@
-Smoke detection using YOLOv8 🚬
+Smoke detection with YOLOv8 🚬

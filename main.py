@@ -19,11 +19,6 @@ while cap.isOpened():
     if success:
         frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
         results = model(frame)
-
-        # if 0 in map(int, results[0].boxes.cls.tolist()):
-        #     annotated_frame = results[0].plot()
-        # else:
-        #     annotated_frame = frame
         
         annotated_frame = results[0].plot()
             
